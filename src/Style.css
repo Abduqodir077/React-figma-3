@@ -385,7 +385,7 @@ nav {
   padding-top: 28px;
 }
 
-.sec3_card{
+.sec3_card {
   padding: 0 300px;
 }
 
@@ -397,93 +397,88 @@ nav {
   box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
 }
 
-.card_1 img{
+.card_1 img {
   width: 261px;
-height: 180px;
+  height: 180px;
 }
 
-.card_1 b{
+.card_1 b {
   padding-top: 8px;
   font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-/* Основное/Черный */
-color: #3C3C3B;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3c3c3b;
 }
 
-.card_1 p{
+.card_1 p {
   padding-top: 8px;
   font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-/* Основное/Черный */
-color: #3C3C3B;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3c3c3b;
 }
 
-.card_1 span{
+.card_1 span {
   padding-top: 20px;
   font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 35px;
-color: #A1A0A0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 35px;
+  color: #a1a0a0;
 }
 
-.card_2 .card_2_1{
+.card_2 .card_2_1 {
   display: flex;
 }
 
-.card_2_1 p{
+.card_2_1 p {
   font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-text-decoration-line: line-through;
-/* Основное/Черный */
-color: #3C3C3B;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: line-through;
+  color: #3c3c3b;
 }
 
-.card_2_1 span{
+.card_2_1 span {
   padding-left: 10px;
   font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-/* текст */
-color: #3C3C3B;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3c3c3b;
 }
 
-.card_2_2{
+.card_2_2 {
   padding-top: 23px;
   display: flex;
 }
 
-.card_2_2_l button{ 
+.card_2_2_l button {
   font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-border: 0;
-background: 0;
-color: #3C3C3B;
+  font-size: 16px;
+  line-height: 19px;
+  border: 0;
+  background: 0;
+  color: #3c3c3b;
 }
 
-.card_2_2_l input{
-  margin:0 10px;
+.card_2_2_l input {
+  margin: 0 10px;
   font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-/* Основное/Черный */
-width: 20px;
-height: 24px;
-color: #3C3C3B;
+  font-size: 20px;
+  line-height: 24px;
+  width: 20px;
+  height: 24px;
+  color: #3c3c3b;
 }
 
-.card_2_2_r button{
+.card_2_2_r button {
   width: 135px;
-height: 47px;
-border: 1px solid #F0BA4E;
-border-radius: 54px;
-background: 0;
-margin-left: 65px;
+  height: 47px;
+  border: 1px solid #f0ba4e;
+  border-radius: 54px;
+  background: 0;
+  margin-left: 65px;
 }
