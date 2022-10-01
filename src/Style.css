@@ -366,6 +366,7 @@ nav {
   height: auto;
   padding-top: 56px;
   background: #f5f5f5;
+  padding-bottom: 56px;
 }
 
 .sec3_p {
@@ -481,4 +482,52 @@ nav {
   border-radius: 54px;
   background: 0;
   margin-left: 65px;
+}
+
+.Section_4{
+  background: #F5F5F5;
+  width: 100%;
+  height: auto;
+  padding: 0 300px;
+}
+
+.Section_4 .sec4_banner{
+  background: white;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 28px;
+  background-image: url(./img/pngwing\ 1.png);
+  background-repeat: no-repeat;
+  background-position: 800px 0px;
+}
+
+.sec4_banner b{
+  font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 34px;
+text-transform: uppercase;
+color: #3C3C3B;
+}
+
+.sec4_banner p{
+  margin-top: 16px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #A1A0A0;
+}
+
+.sec4_banner span{
+  margin-top: 99px;
+  font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #F0BA4E;
 }

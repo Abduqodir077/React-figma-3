@@ -4,7 +4,7 @@ function Section_1(){
     return(
         <>
         <div className="Section_1">
-            <img src={banner} alt="" />
+            <img src={banner} alt="banner" />
         </div>
         </>
     )
