@@ -484,14 +484,14 @@ nav {
   margin-left: 65px;
 }
 
-.Section_4{
-  background: #F5F5F5;
+.Section_4 {
+  background: #f5f5f5;
   width: 100%;
   height: auto;
   padding: 0 300px;
 }
 
-.Section_4 .sec4_banner{
+.Section_4 .sec4_banner {
   background: white;
   width: 100%;
   display: flex;
@@ -504,30 +504,231 @@ nav {
   background-position: 800px 0px;
 }
 
-.sec4_banner b{
+.sec4_banner b {
   font-style: normal;
-font-weight: 500;
-font-size: 28px;
-line-height: 34px;
-text-transform: uppercase;
-color: #3C3C3B;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #3c3c3b;
 }
 
-.sec4_banner p{
+.sec4_banner p {
   margin-top: 16px;
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-color: #A1A0A0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #a1a0a0;
 }
 
-.sec4_banner span{
+.sec4_banner span {
   margin-top: 99px;
   font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-color: #F0BA4E;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #f0ba4e;
+}
+
+.mapp_d {
+  width: 100%;
+  height: auto;
+  background: #f5f5f5;
+  padding-bottom: 50px;
+}
+
+.Footer {
+  width: 1920px;
+  height: 373px;
+  background: #4b565e;
+  padding: 34px 300px;
+  display: flex;
+}
+
+.foot_box1 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.foot_1 {
+  margin-top: 35px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.foot_1_l_t {
+  display: flex;
+  width: 100%;
+}
+
+.foot_1_l_t p,
+.foot_1_r_num p {
+  margin-left: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.foot_box2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+
+.foot_1_l_num {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.foot_1_l_num span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+  color: #ffffff;
+}
+
+.foot_1_r_num {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  left: 250px;
+  top: -22px;
+}
+
+#foot_1 {
+  width: 100%;
+  display: flex;
+}
+
+.foot_1_r_num span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+  color: #ffffff;
+}
+
+.foot_2 {
+  margin-top: 86px;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.foot_2 .links {
+  width: 100%;
+  display: flex;
+}
+
+.foot_2 .links a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding-right: 28px;
+  color: #ffffff;
+}
+
+.foot_2 .svgs {
+  margin-top: 38px;
+  width: 100%;
+  display: flex;
+}
+
+.foot_2 .svgs a {
+  padding-right: 24px;
+}
+
+.foot_box3 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.foot_3_1 {
+  width: 100%;
+  position: relative;
+}
+
+.foot_3_1 p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding-bottom: 12px;
+}
+
+.foot_3_1 span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.foot_3_1 input {
+  padding-left: 60px;
+  margin-top: 30px;
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  border: 1px solid #f0ba4e;
+  background: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.foot_3_1 button {
+  position: absolute;
+  border: 0;
+  bottom: 7px;
+  left: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 38px;
+  width: 94px;
+  height: 36px;
+  background: #f0ba4e;
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
 }

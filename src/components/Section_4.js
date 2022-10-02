@@ -1,3 +1,5 @@
+import Mapp from "./Mapp";
+
 function Section_4() {
 
   return (
@@ -9,6 +11,7 @@ function Section_4() {
             <span>Перейти в каталог</span>
         </div>
       </div>
+      <Mapp/>
     </>
   );
 }

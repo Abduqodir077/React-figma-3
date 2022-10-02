@@ -1,4 +1,4 @@
-// import {BrowserRouter as Router, Routes, Route, NavLink} from "react-router-dom"
+import {BrowserRouter as Router, Routes, Route, NavLink} from "react-router-dom"
 import React from "react";
 import logo from "./img/logo.png"
 import heart from "./img/heart 1.png"
@@ -9,18 +9,22 @@ import Section_1 from "./components/Section_1";
 import Section_2 from "./components/Section_2";
 import Section_3 from "./components/Section_3";
 import Section_4 from "./components/Section_4";
+import Katalog from "./components/Katalog";
+import Footer from "./components/Footer";
 
 function Navbar(){
     return(
         <>
-        {/* <Router> */}
+        <Router>
         <div className="navbar">
             <nav>
                 <div className="logo">
                     <img src={logo} alt="logo" />
                     <a href="#">Главная</a>
                     <a href="#">О компании</a>
-                    <a href="#">Каталог</a>
+                    {/* <a href="#">Каталог</a> */}
+                    <NavLink to="/Katalog" >Каталог</NavLink>
+
                 </div>
                 <div className="contacts">
                     <img src={phone} alt="phone" />
@@ -32,7 +36,7 @@ function Navbar(){
             <div className="katalog">
                 <div className="kat_links">
                     <a href="#"><img src={ktlg} alt="ktlg" /></a>
-                    {/* <NavLink to="/katalog" >Каталог</NavLink> */}
+                    <NavLink to="/Katalog" >Каталог</NavLink>
                     <a href="#">Стройматериалы</a>
                     <a href="#">Инструменты</a>
                     <a href="#">Электрика</a>
@@ -49,10 +53,12 @@ function Navbar(){
         <Section_2/>
         <Section_3/>
         <Section_4/>
-        {/* <Routes>
-            <Route path="/katalog" element={}>
-        </Routes> */}
-        {/* </Router> */}
+        <Footer/>
+
+        <Routes>
+            <Route path="/Katalog" element={<Katalog/>}/>
+        </Routes>
+     </Router>
         </>
     )
 }
